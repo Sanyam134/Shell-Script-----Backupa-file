@@ -1,6 +1,6 @@
-directory_to_backup="/home/sanyam/Developer/Backuptomydirectory" #backupdirectory
+directory_to_backup=$1  #backupdirectory
 
-backup_location="/home/sanyam/Developer" #path to store the backup
+backup_location=$2  #path to store the backup
 
 current_date=$(date +%Y-%m-%d) #Value of date which will appended in the current file
 
